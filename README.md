@@ -73,7 +73,7 @@ log-backup-system/
 
 ### 1. Clone Repository
 
-git clone https://github.com/your-username/log-backup-system
+git clone https://github.com/laksh1107/Log-Backup-System/tree/
 cd log-backup-system
 
 ---
