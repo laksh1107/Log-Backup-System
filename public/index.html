@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Log Backup Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h1>Log Backup Dashboard</h1>
+
+  <div class="section">
+    <h3>System Status</h3>
+    <button onclick="checkHealth()">Check Health</button>
+    <p id="health"></p>
+  </div>
+
+  <div class="section">
+    <h3>Available Logs</h3>
+    <button onclick="loadLogs()">Load Logs</button>
+    <ul id="logs"></ul>
+  </div>
+
+  <div class="section">
+    <h3>Run Backup</h3>
+    <button onclick="runBackup()">Start Backup</button>
+    <pre id="backup"></pre>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
